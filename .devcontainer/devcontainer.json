@@ -35,7 +35,8 @@
 				"redhat.vscode-yaml",
 				"shd101wyy.markdown-preview-enhanced",
         "SAPOS.yeoman-ui",
-        "ms-vscode-remote.vscode-remote-extensionpack"
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-vscode.extension-test-runner"
 			]
     }
 	}
