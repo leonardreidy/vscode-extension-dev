@@ -31,11 +31,12 @@
 				"mads-hartmann.bash-ide-vscode",
 				"Postman.postman-for-vscode",
 				"redhat.vscode-yaml",
-				"shd101wyy.markdown-preview-enhanced"
+				"shd101wyy.markdown-preview-enhanced",
+        "SAPOS.yeoman-ui"
 			]
     }
-	}
+	},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"remoteUser": "yeoman"
 }
