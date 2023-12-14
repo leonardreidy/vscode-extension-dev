@@ -15,13 +15,16 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "yarn install",
+	"postCreateCommand": "npm install -g --silent yo generator-code",
 
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
       "extensions": [
 				"42Crunch.vscode-openapi",
+        "amodio.tsl-problem-matcher",
+        "ms-vscode.extension-test-runner",
+        "dbaeumer.vscode-eslint",
 				"EditorConfig.EditorConfig",
 				"file-icons.file-icons",
 				"GraphQL.vscode-graphql",
