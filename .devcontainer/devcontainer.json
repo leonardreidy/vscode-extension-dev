@@ -34,7 +34,8 @@
 				"Postman.postman-for-vscode",
 				"redhat.vscode-yaml",
 				"shd101wyy.markdown-preview-enhanced",
-        "SAPOS.yeoman-ui"
+        "SAPOS.yeoman-ui",
+        "ms-vscode-remote.vscode-remote-extensionpack"
 			]
     }
 	}
