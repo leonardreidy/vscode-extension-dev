@@ -4,13 +4,13 @@
 	"name": "Node.js & TypeScript",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
-	
+
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
     "ghcr.io/devcontainers-contrib/features/express-generator:2": {},
-    "ghcr.io/leonardreidy/devcontainer-features/yo:0": {}
+    "ghcr.io/leonardreidy/devcontainer-features/yo:0.0.4": {}
   },
-  // 
+  //
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -22,8 +22,16 @@
 	"customizations": {
 		"vscode": {
       "extensions": [
-				"streetsidesoftware.code-spell-checker",
-				"khan.two-monokai"
+				"42Crunch.vscode-openapi",
+				"EditorConfig.EditorConfig",
+				"file-icons.file-icons",
+				"GraphQL.vscode-graphql",
+				"GraphQL.vscode-graphql-syntax",
+				"khan.two-monokai",
+				"mads-hartmann.bash-ide-vscode",
+				"Postman.postman-for-vscode",
+				"redhat.vscode-yaml",
+				"shd101wyy.markdown-preview-enhanced"
 			]
     }
 	}
