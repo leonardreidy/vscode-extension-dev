@@ -15,7 +15,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install -g --silent yo generator-code",
+	"postCreateCommand": "rm -rf node_modules && npm install -g --silent yo generator-code",
 
 	// Configure tool-specific properties.
 	"customizations": {
